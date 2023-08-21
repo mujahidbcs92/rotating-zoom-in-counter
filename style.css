@@ -1,0 +1,219 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #000;
+}
+
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  margin: 5px;
+  color:#fff;
+}
+
+/* Shape */
+.circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  /* background-color: rgba(222, 184, 135, 0.158); */
+  border-radius: 50%;
+  animation-duration: 5s;
+  /* animation-iteration-count: 3; */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  /* animation: anim-rotate 5s infinite linear; */
+}
+
+
+.p-0{
+  margin-top: -19px;
+  margin-left: 68px;
+  position: absolute;
+}
+
+.p-1{
+  margin-top: -8px;
+  margin-left: 112px;
+  position: absolute;
+}
+
+.p-2{
+  margin-top: 15px;
+  margin-left: 137px;
+  position: absolute;
+}
+
+.p-3{
+  margin-top: 44px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.p-4{
+  margin-top: 80px;
+    margin-left: 153px;
+    position: absolute;
+}
+
+.p-5{
+  margin-top: 113px;
+    margin-left: 138px;
+    position: absolute;
+}
+
+.p-6{
+  margin-top: 138px;
+    margin-left: 112px;
+    position: absolute;
+}
+
+.p-7{
+  margin-top: 151px;
+    margin-left: 72px;
+    position: absolute;
+}
+
+.p-8{
+  margin-top: 141px;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.p-9{
+  margin-top: 116px;
+    margin-left: -3px;
+    position: absolute;
+}
+
+.p-10{
+  margin-top: 82px;
+    margin-left: -17px;
+    position: absolute;
+}
+
+.p-11{
+  margin-left: -16px;
+    margin-top: 44px;
+    position: absolute;
+}
+
+.p-12{
+  margin-left: 2px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.p-13{
+  margin-left: 29px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+
+.fade-out {
+  animation-name: fade-out;
+  transition-delay: 1s;
+}
+
+.fade-out2 {
+  animation-name: fade-out2;
+  transition-delay: 2s;
+}
+
+.fade-out3 {
+  animation-name: fade-out3;
+  transition-delay: 3s;
+}
+
+.fade-out4 {
+  animation-name: fade-out4;
+  transition-delay: 4s;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+  
+  to {
+    opacity: 0;
+    transform: scale(4);
+  }
+
+  /* 0% {
+      transform: rotate(0);
+    }
+  100% {
+    transform: rotate(60deg);
+  } */
+}
+
+@keyframes fade-out2 {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(3);
+  }
+
+}
+
+@keyframes fade-out3 {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(2);
+  }
+
+  0% {
+      transform: rotate(45deg);
+    }
+  100% {
+    transform: rotate(180deg);
+  }
+
+}
+
+@keyframes fade-out4 {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+}
+
+/* @keyframes anim-rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+} */
+
+
